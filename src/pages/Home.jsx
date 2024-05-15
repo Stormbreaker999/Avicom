@@ -49,7 +49,7 @@ function Home() {
                             WebkitLineClamp:"2",
                             WebkitBoxOrient:"vertical",
                         }}>{description}</Typography>
-                        <Typography fontSize="large" paragraph>{price*10} ₹</Typography>
+                        <Typography fontSize="large" paragraph>{price} ₹</Typography>
                         <Rating readOnly precision={0.5} value={rating.rate}/>
                      </CardContent>
                      <CardActions sx={{
