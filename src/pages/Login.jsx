@@ -55,7 +55,16 @@ function Login() {
            </Grid>
         </Grid>
       </Box>
-
+      <Box>
+        <Grid container justifyContent={"flex-end"}>
+          <Grid item>
+            Sample Login ID: tester@gmail.com
+          </Grid>
+          <Grid item>
+            Sample Password: 123456789
+          </Grid>
+        </Grid>
+      </Box>
     </Container>
     
   )
